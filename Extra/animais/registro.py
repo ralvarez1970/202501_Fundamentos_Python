@@ -58,6 +58,7 @@ class Registro:
         i = 0
         for pet in owner.pets:
             print (f"Pet name: {owner.pets[i].name}")
+            print (f"Pet owner: {owner.pets[i].owner}")
             print (f"Pet species: {owner.pets[i].species}")
             print (f"Pet color: {owner.pets[i].color}")
             print (f"Pet eyes: {owner.pets[i].eyes}")
